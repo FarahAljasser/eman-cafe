@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { MessageCircle, Mail, Instagram } from "lucide-react";
-export const metadata = { title: "تواصل | قهوة إيمان" };
+//export const metadata = { title: "تواصل | قهوة إيمان" };
 
 export default function ContactPage() {
   const [state, setState] = React.useState({ name: "", phone: "", message: "" });
