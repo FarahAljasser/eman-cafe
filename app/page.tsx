@@ -26,9 +26,8 @@ export default function HomePage() {
           </div>
           <div className="card overflow-hidden">
             <div className="relative aspect-[4/3] bg-brand-100">
-              <Image src="/images/hero.svg" alt="Eman cafe" fill className="object-cover" priority />
+              <Image src="/images/hero.jpg" alt="Eman cafe" fill className="object-cover" priority />
             </div>
-            <div className="p-4 text-sm text-zinc-600">استبدل الصور من مجلد <span className="font-mono">/public/images</span>.</div>
           </div>
         </div>
       </section>
